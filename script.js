@@ -21,10 +21,10 @@ function loadImage(imageUrl, loadCallback,errorCallback) {
 
 loadImage(
   /* ESTA IMAGEN SI SIRVE */
-  /* "https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/functions/moved_dog-1.jpg", */
+  "https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/functions/moved_dog-1.jpg",
 
   /* ESTA IMAGEN NO SIRVE */
-     "https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/functions/moved_dog-12345.jpg",
+     /* "https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/functions/moved_dog-12345.jpg", */
   handleImageLoad,
   handleLoadError
 );
